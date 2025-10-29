@@ -15,22 +15,22 @@
 ## 📦 支持的驱动
 
 ### 传感器
-- [BH1750](Drivers/Sensors/BH1750/) - 光照强度传感器
-- [DHT11](Drivers/Sensors/DHT11/) - 温湿度传感器
-- [HC-SR04](Drivers/Sensors/HC-SR04/) - 超声波测距
-- [MPU6050](Drivers/Sensors/MPU6050/) - 运动传感器
-- [SHT31](/Drivers/Sensors/SHT31) - 温湿度传感器
+- [BH1750](Sensors/BH1750/) - 光照强度传感器
+- [DHT11](Sensors/DHT11/) - 温湿度传感器
+- [HC-SR04](Sensors/HC-SR04/) - 超声波测距
+- [MPU6050](Sensors/MPU6050/) - 运动传感器
+- [SHT31](Sensors/SHT31) - 温湿度传感器
 
 ### 通信模块  
-- [ESP8266](Drivers/Communication/ESP8266/) - WiFi和MQTT客户端
+- [ESP8266](Communication/ESP8266/) - WiFi和MQTT客户端
 
 ### 音频模块
-- [VS1053](Drivers/Audio/VS1053/) - 音频解码器
+- [VS1053](Audio/VS1053/) - 音频解码器
 
 ### 输入模块
-
-- [KEY](Drivers/Input/KEY/) - 多按键扫描
+- [GT911](Input/GT911/) - 电容触摸屏
+- [KEY](Input/KEY/) - 多按键扫描
 
 ### 显示模块
 
-- [0.96寸OLED](Drivers/Displays/SSD1306/)
+- [0.96寸OLED](Displays/SSD1306/)
