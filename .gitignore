@@ -1,0 +1,93 @@
+# ============================================
+# STM32 Project (.gitignore for Keil + CubeMX + EIDE)
+# ============================================
+
+# --- 通用 ---
+*.bak
+*.tmp
+*.log
+*.swp
+*.swo
+*.d
+*.map
+*.lst
+*.lnp
+*.uvgui.*
+*.uvoptx
+*.uvguix.*
+*.db
+*.uvmpw.*
+
+# --- Keil/MDK ---
+*.axf
+*.elf
+*.htm
+*.tra
+*.dep
+*.lnp
+*.o
+*.d
+*.crf
+*.sct
+*.iex
+*.uvprojx.bak
+*.build_log.htm
+*.scvd
+RTE/
+Listings/
+Objects/
+DebugConfig/
+
+# --- CubeMX ---
+# 自动生成的代码中，一般只保留 .ioc 和手动修改的文件
+*.mxproject
+*.launches
+*.settings/
+*.project
+*.cproject
+
+# --- EIDE (VSCode 插件) ---
+# .vscode/
+# .eide/
+# *.eideproj
+# *.workspace
+
+# --- 编译输出 ---
+build/
+Build/
+out/
+output/
+*.bin
+*.hex
+*.elf
+*.map
+
+# --- 系统文件 ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- 临时文件夹 ---
+tmp/
+temp/
+
+# ============================================
+# 保留的重要文件
+# ============================================
+!*.ioc
+!Core/**
+!Drivers/**
+!Middlewares/**
+!*.ld
+!*.s
+!*.c
+!*.h
+!*.cpp
+!*.hpp
+!*.txt
+!*.md
+!*.yml
+!*.yaml
+!*.json
+!*.gitignore
